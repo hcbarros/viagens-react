@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+#hero { 
+  z-index: 0;
+  max-width: 100%;
+  height: 547px;    
+  background: url(imagens/graph-paper.png), linear-gradient(180deg, #A0AEC0 0%, #718096 100%);
+}
+
+#toolbar {
+  z-index: 1;      
+  top: 13px;
+  width: 85vw;
+  display: flex;    
+  justify-content: space-between;  
+  padding-left: 12vw;   
+}
+
+#bloc1 {
+  display: flex;  
+}
+
+#nav {  
+  display: flex;
+  flex-direction: row;        
+  margin-top: 6px;        
+}
+
+#icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 2vw;
+}
+
+#line {
+  display: flex;
+  justify-content: center;
+  justify-items: center;        
+  text-align: center;  
+  margin-left: 14vw;
+  max-width: 71vw;  
+  margin-top: 6px;  
+  border: 1px solid #CBD5E0;
+}
+
+#texts {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  margin: 60px;  
+}
+
+#viaje {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 64px;
+  line-height: 75px;  
+  color: #FFFFFF;
+}
+
+#aqui {  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color: #AAFAFF;  
+  margin-top: 10px;
+}
+
+#vector1 {  
+  margin-top: -15px;          
+}
+
+#vector2 {  
+  margin-top: 10px;   
+}
+
+#vector3 {  
+  margin-left: 28.3px;
+  margin-top: -72px;
+}
+
+#explore {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;  
+  margin-left: 1.5vw;
+}
+
+#sobre {
+  margin-left: 2vw;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;  
+}
+
+#seguros {
+  margin-left: 2vw;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;  
+}
+
+#hoteis {
+  margin-left: 2vw;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;  
+}
+
+#signin {
+  display: flex;
+  flex-direction: row;        
+  margin-top: 6px;           
+}
+
+#menu {
+  display: none;   
+  cursor: pointer;
+}
+
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  position: static;
+  width: 65px;
+  height: 21px;
+  right: 100px;
+  top: 13px;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 24px 0px;
+}
+
+#viagens {
+  width: 65px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 24px 0px;
+}
+
+#loginButton {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 14px;
+  position: static;
+  width: 76px;
+  left: calc(50% - 76px/2);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  top: 0%;
+  bottom: 0%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-self: center;
+  margin-left: 22px;
+}
+
+#containerForm {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  margin-top: -225px;    
+  padding: 0px;  
+}
+
+#boxForm {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;  
+  width: 72vw;
+  height: 185px;  
+  background: #FFFFFF;  
+  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;  
+}
+
+#footer {
+  display: flex;     
+  justify-content: space-between;   
+  height: 80px;  
+  width: 72vw;
+  margin-bottom: 100px;
+  background: #EDF2F7;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+  border-bottom-right-radius: 10px; 
+  border-bottom-left-radius: 10px;  
+}
+
+#btnBuscar {
+  display: flex;
+  flex-direction: row;
+  padding: 14px 18px;
+  min-width: 199px;
+  height: 48px;
+  background: #667EEA;
+  border-radius: 4px;  
+  align-self: flex-end;
+  margin: 0% 20px 16px;     
+}
+
+#btnBuscar > a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  line-height: 19px;  
+}
+
+#btnBuscar > img {
+  filter: invert(100%);
+  margin-right: 5px;
+  margin-left: -5px;
+}
+
+#radios {
+  display: flex;       
+  margin: 30px 5px;  
+}
+
+.radio {
+  margin-left: 10px;
+  display: flex;      
+}
+
+.radio > a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2D3748;
+  margin-top: 1px ;
+}
+
+.containerRadio {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;  
+}
+
+.containerRadio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #efefef;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.containerRadio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+  
+.containerRadio input:checked ~ .checkmark {
+  background-color: #667EEA;
+}
+  
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+  
+.containerRadio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.containerRadio .checkmark:after {
+  top: 6px;
+   left: 6px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: white;      
+}
+
+#inputs {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  width: 69.7vw;
+  margin-left: 15px;
+}
+
+.inputsForm {
+  display: block;
+  width: 17vw;  
+  height: 34px;       
+  border: 1px solid #CBD5E0;  
+  border-radius: 4px;    
+  padding-left: 31px;
+}
+
+#inputOrigem {   
+  background:  url(imagens/Image.svg) 4px center no-repeat #F7FAFC;  
+}
+
+#inputDestino {   
+  background:  url(imagens/Place.svg) 4px center no-repeat #F7FAFC;  
+}
+
+#dataIda {   
+  background:  url(imagens/Date.svg) 4px center no-repeat #F7FAFC;  
+}
+
+#nPessoas {   
+  background:  url(imagens/Person.svg) 4px center no-repeat #F7FAFC;  
+}
+
+#valorForm {
+  margin-top: -20px;
+  height: 190px;
+  width: 50vw;
+  background: #EDF2F7;
+  border-radius: 10px;
+  margin-bottom: 400px;
+}
+
+#valorForm div {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #718096;
+  margin: 15px 0px 0px 15px;  
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+  #inputs {    
+    flex-direction: column;              
+    justify-content: center;
+    margin-left: 1vw;
+  }
+
+  #viaje {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  #aqui {
+    font-size: 24px;
+    line-height: 28px;
+  }    
+
+  .inputsForm {    
+    width: 68vw;            
+  } 
+
+  #boxForm {
+    height: 385px;
+  }
+
+  #valorForm {
+    width: 60vw;
+    margin-top: -40px;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+
+  body {
+    overflow-x:hidden;
+  }   
+
+  #toolbar {
+    width: 95vw;
+    padding-left: 3vw;
+  }
+  
+  #line {
+    max-width: 87vw;
+    margin-left: 5vw;
+    margin-top: 29px;      
+  }
+
+  #texts {
+    margin: 30px;
+  }
+
+  #nav, #signin {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    margin-top: 27px;
+    margin-right: 18px;            
+  }
+
+  #boxForm, #footer, #valorForm {
+    width: 87vw;
+  }
+
+  #valorForm {
+    width: 87vw;
+    margin-top: -60px;
+  }
+
+  #inputs {
+    margin-left: 8.7vw;
+  }
+
+  .inputsForm {    
+    width: 82.5vw;            
+  } 
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  #containerForm {
+      margin-top: -150px;
+  }
+
+  #valorForm {   
+    margin-top: -80px;
+  }
+
+  #menu {
+    margin-right: 5px;
+  }
+
+  #radios {
+    margin-left: 5px;
+  }
+
+  .radio {
+    margin-left: 5px;
+  }
+
+  .radio > a {
+    font-size: 14px;
+    line-height: 17px;    
+    margin-top: 3px ;
+  }
+
+}
+
+
+
+
